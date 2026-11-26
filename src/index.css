@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { -webkit-text-size-adjust: 100%; }
+body { background: #F4F7F6; color: #1f2d2a; }
+:focus-visible { outline-color: #123D35; }
+input[type='date'] { min-height: 50px; }
+@media print { header, footer, button { display: none !important; } }
